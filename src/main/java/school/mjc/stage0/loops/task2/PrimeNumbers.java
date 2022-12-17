@@ -5,7 +5,7 @@ public class PrimeNumbers {
         for (int i=2;i<printToInclusive;i++){
             if(checkSimple(i))
                 System.out.println(i);
-        }
+        }}
     
 
     public static boolean checkSimple(int i){
@@ -24,4 +24,4 @@ public class PrimeNumbers {
         return true;
     }
     }
-}
+
