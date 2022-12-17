@@ -4,15 +4,15 @@ public class Multiplication {
     public void printMultiplied(int multiplyByAndToInclusive) {
                 int zero = 0;
         System.out.println(0);
-        if(printTillInclusive<0){
-            while (zero!=-printTillInclusive * printTillInclusive){
-                zero += printTillInclusive;
+        if(multiplyByAndToInclusive<0){
+            while (zero!=-multiplyByAndToInclusive * multiplyByAndToInclusive){
+                zero += multiplyByAndToInclusive;
                 System.out.println(zero);
             }
         }
         else {
-            while (zero != printTillInclusive * printTillInclusive) {
-                zero += printTillInclusive;
+            while (zero != multiplyByAndToInclusive * multiplyByAndToInclusive) {
+                zero += multiplyByAndToInclusive;
                 System.out.println(zero);
             }
 
